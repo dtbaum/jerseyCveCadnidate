@@ -1,5 +1,3 @@
-# jerseyCveCandidate
-A PoC which exploit race condition of jersey client, version 3.1.9
-
-In the case of a race condition, the second REST call loses critical SSL settings such as mutual authentication, customized key/trust stores, and other configurations - in best case this leads to SSLHandshakeException.
-The worst case (see code) is a candidate for a CVE.
+# Proof of Concept (PoC): Exploiting Race Conditions in Jersey Client Version 3.1.9
+This PoC demonstrates a race condition vulnerability in Jersey Client 3.1.9. When a race condition occurs, the second REST call loses critical SSL configurations, including mutual authentication, custom key/trust stores, and other security settings.
+The vulnerability, as demonstrated in the provided code, has potential for a CVE classification due to its severity and impact.
