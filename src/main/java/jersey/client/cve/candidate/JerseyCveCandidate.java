@@ -21,8 +21,8 @@ import jakarta.ws.rs.core.MediaType;
 public class JerseyCveCandidate
 {
   //set THREAD_NUMBER > 1 to reproduce bypassing SSL settings
-//  private static int THREAD_NUMBER = 5;
-  private static int THREAD_NUMBER = 1;
+  private static int THREAD_NUMBER = 5;
+  // private static int THREAD_NUMBER = 1;
   
   private static String worksAsDesigned = "\nWorks as designed!\n" 
   + "We got SSLHandshakeExceptions for all requests, "
